@@ -1,0 +1,164 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://f03f507b-59a5-4779-8572-85cd893f0589",
+	"@type": "sc:Manifest",
+	"label": "Leonardo da Vinci Fable and Emblem of the Lily",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://573c09f4-3959-47d9-bac5-b9ba6274ea77",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://d7c5c362-8167-48c4-a4f3-5e128de9c790",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1240,
+					"width": 945,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://86c3827f-9634-4e89-9e49-91d86c0bf7c6",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/h-44r/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/h-44r",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 1240,
+								"width": 945
+							},
+							"on": "http://d7c5c362-8167-48c4-a4f3-5e128de9c790"
+						}
+					],
+					"otherContent": [
+    {
+        "@id": "http://localhost:8887/annotations1.json",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }
+],
+					"related": ""
+				},
+				{
+					"@id": "http://f08411f5-5daa-4f60-b6ce-8348916c7197",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2000,
+					"width": 1451,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://baaaf2de-057e-43f5-a8bc-de4f7fa1b2cf",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/rl-12700v/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/rl-12700v",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 2000,
+								"width": 1451
+							},
+							"on": "http://f08411f5-5daa-4f60-b6ce-8348916c7197"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://e52d6275-6190-423e-842b-2558ac3c989c",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2000,
+					"width": 1703,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f88d474a-7ba3-4098-866e-601b5014bb31",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/rl-12692r/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/rl-12692r",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 2000,
+								"width": 1703
+							},
+							"on": "http://e52d6275-6190-423e-842b-2558ac3c989c"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://fa1ec5a6-1b33-4a11-91f3-b5d348da6e40",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1137,
+					"width": 2500,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://96d2fe7e-ef9e-49aa-a2a9-7f094fdc1e97",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/leonardo-annunciation-1472c/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/leonardo-annunciation-1472c",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 1137,
+								"width": 2500
+							},
+							"on": "http://fa1ec5a6-1b33-4a11-91f3-b5d348da6e40"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [],
+	"thumbnail": {
+		"@id": "http://d7c5c362-8167-48c4-a4f3-5e128de9c790"
+	}
+}
